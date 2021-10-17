@@ -22,6 +22,9 @@ void main()
     
     else if(marks<=40)
         grade = 'F';
+    
+    else
+        printf("\n Marks entered not in range!");
 
     printf("\n Grade secured : %c",grade);
 }
