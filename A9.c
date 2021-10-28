@@ -45,6 +45,7 @@ void main()
         printf("\n\n 1. Enter");
         printf("\n 2. Read");
         printf("\n 9. Exit");
+        printf("\n Enter choice: ");
         scanf("%d",&ch);
 
         switch(ch)
