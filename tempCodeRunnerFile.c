@@ -1,0 +1,4 @@
+void close(void)
+{
+    return;
+    }
