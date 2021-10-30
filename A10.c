@@ -36,10 +36,7 @@ void main()
         ch = fgetc(fin);
         while (ch != EOF)
         {
-            /* Write to destination file */
             fputc(ch, fout);
-
-            /* Read next character from source file */
             ch = fgetc(fin);
         }
     }     
